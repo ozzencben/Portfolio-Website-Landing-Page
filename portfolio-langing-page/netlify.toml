@@ -1,0 +1,7 @@
+[build]
+  base = "portfolio-langing-page"       # Vite projenin olduğu klasör
+  publish = "portfolio-langing-page/dist"  # Build sonrası yayınlanacak klasör
+  command = "npm run build"             # Build komutu
+
+[build.environment]
+  NODE_VERSION = "20"                   # Node sürümü Netlify ile uyumlu olması için
